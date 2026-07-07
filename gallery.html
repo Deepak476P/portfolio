@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Alekya</title>
+    <meta name="description" content="Browse the full gallery of original paintings by Alekya — oil, acrylic, watercolor and mixed media works.">
+    <meta property="og:title" content="Gallery | Alekya">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="progress-bar"></div>
+
+<header>
+
+    <div class="logo">
+        ALEKYA
+    </div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+
+</header>
+
+<section class="gallery-hero">
+
+    <h1>Gallery</h1>
+
+    <p>
+
+        A collection of paintings and illustrations.
+
+    </p>
+
+</section>
+<div class="gallery-filter" id="gallery-filter">
+</div>
+
+<section class="gallery-page">
+
+<!-- Cards are rendered by js/gallery.js from a single artworks array.
+     Do NOT hardcode .art-card markup here — that previously caused every
+     artwork to render twice (once from this HTML, once from the script). -->
+<div id="gallery-grid"></div>
+
+</section>
+
+<div id="lightbox">
+
+    <button id="close" aria-label="Close">&times;</button>
+
+    <button id="prev" aria-label="Previous artwork">&#10094;</button>
+
+    <img id="lightbox-img">
+
+    <div class="lightbox-info">
+        <h2 id="lightbox-title"></h2>
+        <p id="lightbox-desc"></p>
+    </div>
+
+    <button id="next" aria-label="Next artwork">&#10095;</button>
+
+</div>
+
+<script src="js/gallery.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
