@@ -2,22 +2,23 @@
 // NOTE: gallery.html must NOT hardcode .art-card markup — cards are
 // rendered here only, once, to avoid duplicate rendering.
 const artworks = [
-  { image: "images/art01.jpg", title: "Artwork 01", category: "Oil",         description: "Oil on Canvas • 24 × 36 in" },
-  { image: "images/art02.jpg", title: "Artwork 02", category: "Acrylic",     description: "Acrylic • 18 × 24 in" },
-  { image: "images/art03.jpg", title: "Artwork 03", category: "Watercolor",  description: "Watercolor • 12 × 18 in" },
-  { image: "images/art04.jpg", title: "Artwork 04", category: "Mixed Media", description: "Mixed Media • 20 × 20 in" },
-  { image: "images/art05.jpg", title: "Artwork 05", category: "Oil",         description: "Oil • 24 × 30 in" },
-  { image: "images/art06.jpg", title: "Artwork 06", category: "Acrylic",     description: "Acrylic • 18 × 24 in" },
-  { image: "images/art07.jpg", title: "Artwork 07", category: "Oil",         description: "Oil • 24 × 36 in" },
-  { image: "images/art08.jpg", title: "Artwork 08", category: "Acrylic",     description: "Acrylic on Canvas • 20 × 30 in" },
-  { image: "images/art09.jpg", title: "Artwork 09", category: "Watercolor",  description: "Watercolor • 16 × 20 in" },
-  { image: "images/art10.jpg", title: "Artwork 10", category: "Oil",         description: "Oil • 30 × 40 in" },
-  { image: "images/art11.jpg", title: "Artwork 11", category: "Oil",         description: "Oil on Canvas • 18 × 24 in" },
-  { image: "images/art12.jpg", title: "Artwork 12", category: "Mixed Media", description: "Mixed Media • 24 × 24 in" },
-  { image: "images/art13.jpg", title: "Artwork 13", category: "Oil",         description: "Oil • 24 × 36 in" },
-  { image: "images/art14.jpg", title: "Artwork 14", category: "Mixed Media", description: "Mixed Media on Canvas • 16 × 20 in" },
-  { image: "images/art15.jpg", title: "Artwork 15", category: "Acrylic",     description: "Acrylic • 20 × 24 in" },
-  { image: "images/art16.jpg", title: "Artwork 16", category: "Oil",         description: "Oil • 18 × 24 in" }
+  { image: "images/art01.jpg", title: "Inspirational Work", category: "Acrylic",         description: "Acrylic • 8 × 10 in" },
+  { image: "images/art02.jpg", title: "Inspirational Work", category: "Acrylic",     description: "Acrylic • 6 × 6 in" },
+  { image: "images/art03.jpg", title: "Artwork 03", category: "Acrylic",  description: "Acrylic • 8 × 10 in" },
+  { image: "images/art04.jpg", title: "Artwork 04", category: "Acrylic", description: "Acrylic • 8 × 10 in" },
+  { image: "images/art05.jpg", title: "Artwork 05", category: "Acrylic",         description: "Acrylic • 6 × 6 in" },
+  { image: "images/art06.jpg", title: "Artwork 06", category: "Acrylic",     description: "Acrylic • 6 × 6 in" },
+  { image: "images/art07.jpg", title: "Artwork 07", category: "Acrylic",         description: "Acrylic • 6 × 8 in" },
+  { image: "images/art08.jpg", title: "Artwork 08", category: "Acrylic",     description: "Acrylic • 6 × 8 in" },
+  { image: "images/art09.jpg", title: "Artwork 09", category: "Acrylic",  description: "Acrylic • 6 × 6 in" },
+  { image: "images/art10.jpg", title: "Artwork 10", category: "Acrylic",         description: "Acrylic • 6 × 6 in" },
+  { image: "images/art11.jpg", title: "Artwork 11", category: "Acrylic",         description: "Acrylic • 8 × 10 in" },
+  { image: "images/art12.jpg", title: "Artwork 12", category: "Acrylic", description: "Acrylic • 8 × 10 in" },
+  { image: "images/art13.jpg", title: "Artwork 13", category: "Acrylic",         description: "Acrylic • 6 × 6 in" },
+  { image: "images/art14.jpg", title: "Artwork 14", category: "Acrylic", description: "Acrylic • 6 × 8 in" },
+  { image: "images/art15.jpg", title: "Artwork 15", category: "Acrylic",     description: "Acrylic • 6 × 8 in" },
+  { image: "images/art16.jpg", title: "Artwork 16", category: "Acrylic",         description: "Acrylic • 6 × 8 in" },
+  { image: "pics/any.jpg", title: "Moss & sparkels", category: "Acrylic",         description: "Acrylic • 14 × 12 in" }
 ];
 // Artwork 17 was removed: its image file was byte-identical to Artwork 05
 // (both were copies of images/art1.jpg used as the homepage feature image),
